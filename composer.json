@@ -1,0 +1,23 @@
+{
+    "name": "Base project Slim",
+    "description": "A base project using microframework slim, ORM illuminate and template provider mustach",
+    "keywords": ["base", "php"],
+    "type": "app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo da Silva Rodriges",
+            "email": "gustavo.beavis@gmail.com",
+            "homepage": "http://gustavobeavis.github.io"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.*",
+        "mustache/mustache": "~2.5",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "files": [ "app/config.php" ],
+        "classmap": [ "app/models", "app/utils" ]
+    }
+}
